@@ -1,0 +1,26 @@
+{
+  "name": "0-constants.js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^9.11.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.25.6",
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "@babel/preset-react": "^7.24.7"
+  },
+  "scripts": {
+    "dev": "node 0-main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "alx-backend-javascript"
+  },
+  "author": "clinton",
+  "license": "ISC",
+  "keywords": [],
+  "description": ""
+}
