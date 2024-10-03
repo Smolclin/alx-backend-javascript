@@ -4,6 +4,7 @@ class HolbertonCourse {
     this.length = length;
     this.students = students;
   }
+
   set name(name) {
     if (typeof name !== 'string') {
       throw new TypeError('Name must be a string');
@@ -14,6 +15,7 @@ class HolbertonCourse {
   get name() {
     return this._name;
   }
+
   set length(length) {
     if (typeof length !== 'number') {
       throw new TypeError('Length must be a number');
@@ -24,6 +26,7 @@ class HolbertonCourse {
   get length() {
     return this._length;
   }
+
   set students(students) {
     if (students instanceof Array) {
       this._students = students;
