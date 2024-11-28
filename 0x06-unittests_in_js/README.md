@@ -1,5 +1,8 @@
 # 0x06. Unittests in JS
 
+![Uploading image.png…]()
+
+
 Resources
 Read or watch:
 
